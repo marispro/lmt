@@ -8,4 +8,4 @@ https://lmt.maris.pro/
 - Laravel latest version
 - PHP 8.2
 - MySQL
-- Vite, SCSS, Vue.js, Axios and HTML :-)
+- Vite v3, SCSS, Vue.js v3, Axios, Bootstrap v5
