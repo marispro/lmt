@@ -13,8 +13,9 @@ Note: Please enter only real domain email address.
 
 ## Installation
 1. Download project
-2. Run ```composer install```
-3. Run ```npm install```
-4. Compile assets by command ```vite dev```
-5. Run migrations ```php artisan migrate```
+2. rename ".env.example" to ".env" and set your database credentials
+3. Run ```composer install```
+4. Run ```npm install```
+5. Compile assets by command ```vite dev```
+6. Run migrations ```php artisan migrate```
 
