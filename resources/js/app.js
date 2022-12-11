@@ -7,7 +7,7 @@ import { createApp } from 'vue/dist/vue.esm-bundler'
 import '../sass/app.scss'
 
 // countdown
-const countDownDate = new Date("Dec 29, 2022 00:00:00").getTime();
+const countDownDate = new Date("Dec 31, 2022 23:59:00").getTime();
 
 // helper for date/time leading zeros
 const zeroPad = (num, places) => String(num).padStart(places, '0');
