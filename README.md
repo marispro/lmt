@@ -16,3 +16,4 @@ This is solution of task described here: https://github.com/lmtWeb/fullstack-dev
 3. Run ```npm install```
 4. Compile assets by command ```vite dev```
 5. Run migrations ```php artisan migrate```
+
