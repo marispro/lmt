@@ -2,6 +2,7 @@
 This is solution of task described here: https://github.com/lmtWeb/fullstack-dev-task
 
 ## Demo: https://lmt.maris.pro/
+Note: Please enter only real domain email address.
 
 ## Tools used
 - Laravel latest version
