@@ -20,7 +20,7 @@ class NameLastname implements Rule
         $value = Str::of($value)->trim()->replace('.', '');
 
         $words = explode(' ', $value);
-        if(count($words) < 2) return false; // minimum 2 words
+        //if(count($words) < 2) return false; // minimum 2 words
         if(count($words) > 4) return false; // maximum 4 words
 
         $check = true;
