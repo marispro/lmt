@@ -12,13 +12,13 @@ const countDownDate = new Date("Dec 31, 2022 23:59:00").getTime();
 // helper for date/time leading zeros
 const zeroPad = (num, places) => String(num).padStart(places, '0');
 
-// update the count down every 1 second
+// update the countdown every 1 second
 let x = setInterval(function() {
 
     // Get today's date and time
     let now = new Date().getTime();
 
-    // find the diff between now and the count down date
+    // find the diff between now and the countdown date
     let diff = countDownDate - now;
 
     // time calculations for days, hours, minutes and seconds
@@ -62,7 +62,7 @@ createApp({
     methods: {
         submit() {
             this.errors.name = !this.name.length;
-            this.errors.email = !this.name.length;
+            this.errors.email = !this.email.length;
 
             if(this.name && this.email) {
                 let currentObj = this;
